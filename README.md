@@ -4,7 +4,9 @@ You can cat its device file (or open the file with a program) and the driver wil
 Don't worry if you don't see what we do with the data we read into the buffer; we don't do much with it. 
 We simply read in the data and print a message acknowledging that we received it.
 
-INSTRUCTIONS:
+
+
+#INSTRUCTIONS:
 1.run "make" command.
 2.run "insmod charDriver.ko"
 3.You need to run "mknod /dev/chardev c <majornumber> 0" separately to make it working.
